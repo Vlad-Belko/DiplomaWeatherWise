@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_back">
+
+    <TextView
+        android:id="@+id/dialogCityText"
+        android:theme="@style/MyTheme"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ifWantChangeCity" />
+
+    <Button
+        android:id="@+id/reSelect"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#08939F"
+        android:fontFamily="@font/commissioner"
+        android:text="@string/changeCity"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/dilogNotifText"
+        android:theme="@style/MyTheme"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/onNotif"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#08939F"
+        android:fontFamily="@font/commissioner"
+        android:text="@string/on"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/offNotif"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#08939F"
+        android:fontFamily="@font/commissioner"
+        android:text="@string/off"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

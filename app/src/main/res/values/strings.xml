@@ -1,0 +1,874 @@
+<resources>
+    <string name="app_name">Weather Wise</string>
+    <string name="tempText">Current temperature: %1$s %2$s</string>
+    <string name="windspeedText">Current wind speed: %1$s %2$s</string>
+    <string name="maxtempText">Max:\n %1$s %2$s</string>
+    <string name="maxwindSpeed">Max:\n %1$s %2$s</string>
+    <string name="sunriseText">Sunrise:\n %1$s %2$s</string>
+    <string name="sunsetText">Sunset:\n %1$s %2$s</string>
+    <string name="weathercodeText">Expected today:\n %1$s</string>
+
+    <string name="temperature_2m_not_text">%1$s</string>
+    <string name="apparent_temperature_not_text">Feels like %1$s %2$s</string>
+    <string name="windspeed_10m_not_text">Wind speed:\n %1$s %2$s</string>
+    <string name="weather_code_hourly_not_text">Weather conditions:\n %1$s</string>
+    <string name="relativehumidity_2m_not_text">Relative humidity:\n %1$s %2$s</string>
+    <string name="precipitation_probability_not_text">Precipitation probability:\n %1$s %2$s</string>
+    <string name="pressure_msl_not_text">Atmospheric pressure:\n %1$s %2$s</string>
+    <string name="pressure_msl_city_normal">Normal atmospheric pressure:\n %1$s %2$s</string>
+    <string name="pressure_msl_now">Current barometric pressure:\n %1$s %2$s</string>
+    <string name="visibility_not_text">Visibility:\n %1$s %2$s</string>
+    <string name="uv_index_not_text">UV index:\n %1$s</string>
+    <string name="windgusts_10m_not_text">Gusts of Wind:\n %1$s %2$s</string>
+    <string name="cloudcover_not_text">Cloud cover:\n %1$s %2$s</string>
+    <string name="winddirection_10m_not_text">Wind direction:\n</string>
+
+    <string name="R_high_pressure">\t\t\tLow air pressure is observed now:\n\n
+\t\t\tIf you feel uncomfortable, here are a few suggestions that can help you deal with this condition:\n
+\t\t\t1. Try to drink more water or other liquids to stay hydrated.\n
+\t\t\t2. Try to reduce your physical activity and rest.\n
+\t\t\t3. Eat right: Eat foods rich in protein, carbohydrates, and vitamins to support your immune system.\n
+\t\t\t4. Eat more salty foods. Salt can help increase blood pressure, so it can help manage low blood pressure.\n
+\t\t\t5. Avoid sudden movements and quick changes in body position. This may cause dizziness and loss of consciousness.\n
+\t\t\t6. Try drinking a cup of coffee or tea. Caffeine and theine can help increase blood pressure.\n
+\t\t\t7. Avoid alcohol. Alcohol can worsen low barometric pressure and cause additional problems.\n
+\t\t\t8. Add foods rich in vitamin C to your diet. Vitamin C can help improve circulation and increase blood pressure. Foods rich in vitamin C include citrus fruits, kiwifruit, broccoli, and cabbage.\n
+\t\t\t9. Engage in physical activity such as walking or light exercise such as yoga. This can help improve circulation and increase blood pressure.\n
+\t\t\t10. Avoid stress and psychological tension. Stress and tension can make things worse in low atmospheric pressure.\n
+\t\t\t11. Sleep enough. Lack of sleep can worsen low barometric pressure and lead to poor overall health. Try to sleep at least 7-8 hours a day.
+</string>
+    <string name="R_low_pressure">\t\t\tAtmospheric pressure is high now:\n\n
+\t\t\tIf you feel uncomfortable, here are a few suggestions that can help you deal with this condition:\n
+\t\t\t1. Limit physical activity and refrain from sports activities, especially if they involve climbing to heights.\n
+\t\t\t2. Reduce salt intake, as it promotes fluid retention in the body and increases blood pressure.\n
+\t\t\t3. Drink plenty of fluids to prevent dehydration and keep your cardiovascular system healthy.\n
+\t\t\t4. Avoid large temperature fluctuations and strong winds, which can impair health.\n
+\t\t\t5. Observe the regime of the day and sleep, get enough rest.\n
+\t\t\t6. If necessary, take medication prescribed by the doctor. Usually, for high blood pressure, medications are recommended that reduce its level.\n
+\t\t\t7. Avoid alcoholic beverages and strong coffee, as they can cause high blood pressure.\n
+\t\t\t8. Eat healthy and regularly by eating more vegetables, fruits and greens, as well as foods rich in potassium such as bananas, nuts, potatoes, dried fruits.\n
+\t\t\t9. Avoid stressful situations and negative emotions, as they can aggravate high blood pressure.\n
+\t\t\t10. You can massage the neck and temporal region, take a hot shower or drink hot peppermint tea.
+</string>
+    <string name="norm_pressure">Barometric pressure is normal. No further advice required</string>
+    <string name="uv_0_2">Adult Risk: Low\n
+  Protective measures are not needed. For most people, there is no danger outdoors.</string>
+    <string name="uv_3_5">\t\t\tWhen uv index is between 3 and 5:\n\n
+\t\t\t1. Avoid prolonged exposure to the sun between the hours of 10:00 am and 4:00 pm, when UV rays are at their strongest.\n
+\t\t\t2. Apply sunscreen with SPF 30+ to your skin and reapply every 2 hours.\n
+\t\t\t3. Wear protective clothing such as long sleeves, trousers, wide-brimmed hats, and sunglasses.\n
+\t\t\t4. Avoid tanning beds and other sources of UV radiation.\n
+\t\t\t5. Drink more water to avoid dehydration of the skin and reduce its protective properties.\n
+\t\t\t6. Be especially careful if you have light skin, eyes, and hair, or if you have previously diagnosed skin health issues.\n
+\t\t\t7. If you notice skin changes such as age spots, moles, dryness or burning, see a dermatologist.\n
+\t\t\tIt is important to remember that even on overcast days, UV rays can penetrate clouds and increase the UV index. Therefore, recommendations for sun protection are important to follow in any weather.
+</string>
+    <string name="uv_6_7">\t\t\tIf the UV index is in the range of 6 to 7, this indicates a high level of ultraviolet rays, and appropriate measures should be taken to protect the skin. Here are some suggestions:\n
+\t\t\t1. Avoid prolonged exposure to the sun between the hours of 10:00 am and 4:00 pm, when ultraviolet rays are most intense.\n
+\t\t\t2.Wear protective clothing that fits close to the body and covers most of the skin. For example, long sleeves, wide-brimmed hats, UV protection glasses.\n
+\t\t\t3.Use a sunscreen with SPF 30+ UV protection and apply it to the skin 30 minutes before sun exposure. Reapply every two hours and after swimming or sweating.\n
+</string>
+    <string name="uv_8_10">\t\t\tWhen the UV index is in the range of 8 to 10, this indicates a very high risk from solar radiation. In this case, it is recommended:\n
+\t\t\t1. Avoid sun exposure between 10:00 am and 4:00 pm, when the sun\'s radiation is at its strongest.\n
+\t\t\t2. Wear protective clothing, thick and light clothing with long sleeves and pants that fit close to the body.\n
+\t\t\t3. Use SPF 30+ sunscreen and apply to skin 30 minutes before sun exposure on exposed areas of the body, including face, neck, arms and legs. Reapply every two hours and after swimming or sweating\n
+\t\t\t4. Wear a wide-brimmed hat or cap to protect your face, ears, and neck.\n
+\t\t\t5. Avoid using tanning beds and tanning lamps as they can also increase UV levels.\n
+\t\t\t6. Drink enough water to avoid dehydration, which can increase the effects of sunlight on the body.\n
+\t\t\t7. Avoid skin products that contain alpha hydroxy acids (AHAs), as they can increase skin sensitivity to UV radiation.
+     </string>
+    <string name="uv_11">\t\t\tA UV index greater than 11 is considered extremely high levels of ultraviolet radiation, which can cause severe burns and an increased risk of skin cancer. Therefore, the following precautions are recommended:\n
+\t\t\t1. Avoid exposure to the sun from 10 am to 4 pm, when UV radiation is most intense.\n
+\t\t\t2.If you have to be in the sun, put a hat or cap on your head and sunglasses on your eyes.\n
+\t\t\t3. Use SPF 30+ sunscreen and apply to skin 30 minutes before sun exposure on exposed areas of the body, including face, neck, arms and legs. Reapply every two hours and after swimming or sweating.\n
+\t\t\t4. Wear clothing that covers most of your body and protects from the sun.\n
+\t\t\t5. Avoid tanning beds and lamps, which can increase ultraviolet radiation and increase the risk of skin cancer.
+</string>
+    <string name="windIndex_1">No risk of frostbite or hypothermia</string>
+    <string name="windIndex_2">Slight risk of frostbite</string>
+    <string name="windIndex_3">Slight risk of frostbite and hypothermia</string>
+    <string name="windIndex_4">Average risk of hypothermia and frostbite on exposed skin within 10-30 minutes</string>
+    <string name="windIndex_5">High risk of hypothermia and frostbite on exposed skin within 5-10 minutes</string>
+    <string name="windIndex_6">Very high risk of hypothermia and frostbite on exposed skin within 2-5 minutes</string>
+    <string name="windIndex_7">Extremely high risk of hypothermia and frostbite on exposed skin in less than two minutes</string>
+    <string name="hum_norm">Atmospheric humidity limits that are comfortable for a person are in the range from 40 to 70%, no additional recommendations are required.</string>
+    <string name="high_hum_tp35">\t\t\tHigh humidity and high temperatures can cause heat stroke and other health problems. Some tips to help you out in these conditions:\n
+\t\t\t1. Drink enough water. It is important to stay hydrated to avoid dehydration and other health issues.\n
+\t\t\t2. Avoid prolonged exposure to the sun. Stay in the shade or indoors with air conditioning.\n
+\t\t\t3. Dress appropriately. Wear light, loose clothing that won\'t trap heat.\n
+\t\t\t4. Avoid physical activity. If you plan to exercise outside, do it early in the morning or late in the evening when the temperature is cooler.\n
+\t\t\t5. Use a fan or air conditioner. This can help bring down the temperature and reduce the humidity levels.\n
+\t\t\t6. Be attentive to your body. If you feel very hot or tired, rest in the shade and drink some water.\n
+\t\t\t7. Seek medical attention if you become very ill or develop any severe symptoms.
+</string>
+    <string name="high_hum_tp30_35">\t\t\tHigh humidity at temperatures above 30 degrees Celsius may cause problems with the body\'s thermoregulation and deterioration of well-being. To reduce the risk of possible negative consequences, it is recommended:\n
+\t\t\t1. Wear light and fitted clothing made from natural materials such as cotton or linen to allow the skin to breathe and allow excess moisture to evaporate.\n
+\t\t\t2. Avoid strenuous exercise and direct sun exposure during the hottest periods (usually between 11:00 am and 4:00 pm). If you must be outside during this time, you should look for shady places or use umbrellas, hats, and other items that can create shade.\n
+\t\t\t3. Drink enough water to avoid dehydration. When humidity is high, the body loses more fluid than when humidity is low, so it is important to drink enough water to replace fluid loss.\n
+\t\t\t4. Avoid alcohol and coffee as they can increase dehydration.\n
+\t\t\t5. Pay attention to your well-being and seek medical help at the first sign of deterioration in health.
+</string>
+    <string name="high_hum_tp24_30">\t\t\tIn case of high humidity above 24 and below 30 degrees Celsius, the following is recommended:\n
+\t\t\t1. Drink plenty of water to stay hydrated.\n
+\t\t\t2. Avoid prolonged exposure to direct sunlight during the middle hours of the day (11:00 am to 4:00 pm) when the sun is at its brightest. If you must go outside, use protective gear such as hats, umbrellas, sunglasses, and high UV blocking creams.\n
+\t\t\t3. Avoid strenuous exercise and limit your time in sports or outdoor activities.\n
+\t\t\t4. Wear light, loose clothing made from natural materials such as cotton or linen.\n
+\t\t\t5. Avoid smoking and drinking alcohol, as they can worsen the condition of the body in conditions of high humidity.\n
+\t\t\t6. If you have medical problems related to the cardiovascular system, lungs or respiratory system, see your doctor for further advice.\n
+\t\t\t7. If possible, stay indoors with an air conditioner or fan to keep the temperature and humidity down.
+</string>
+    <string name="high_hum_tp18_24">\t\t\tIn high humidity and temperatures above 18 degrees Celsius and below 24 degrees Celsius, the following is recommended:\n
+\t\t\t1. Wear loose, light and breathable clothing made from natural materials that will not stick to the body and will help remove moisture from the surface of the skin.\n
+\t\t\t2. Avoid sun exposure during periods of peak sun exposure, usually between 11:00 am and 4:00 pm.\n
+\t\t\t3. Wear a sun hat.\n
+\t\t\t4. Drink enough fluids to prevent dehydration. It is recommended to drink cool water, natural fruit juices or isotonic drinks.\n
+\t\t\t5. Avoid physical activity and intense training during periods of maximum heat and humidity.\n
+\t\t\t6. Look for a cool place to rest in the shade if symptoms of overheating begin to show.\n
+\t\t\tIt is important to remember that high humidity and high temperatures can cause heatstroke, which is a serious condition and requires medical attention.
+</string>
+    <string name="high_hum_tp12_18">\t\t\tIn high humidity and temperatures above 12 degrees Celsius and below 18 degrees Celsius, the following is recommended:\n
+\t\t\t1. Avoid being outdoors for extended periods of time.\n
+\t\t\t2. If you have to be outside, wear clothing that will protect you from moisture, such as a jacket or raincoat.\n
+\t\t\t3. Wear a hat to help keep moisture out and retain body heat.\n
+\t\t\t4. Drink enough water to stay hydrated.\n
+\t\t\t5. Avoid physical activity outdoors during peak humidity.\n
+\t\t\tIt is also recommended to pay attention to the symptoms of overheating of the body and reduce physical activity if they occur. These symptoms may include dizziness, nausea, weakness, fatigue, and headache.\n
+\t\t\tIn addition, high humidity and low temperatures may cause frostbite. Therefore, it is important to monitor body temperature and wear warm and protective clothing.\n
+\t\t\tFinally, if you have any medical problems such as respiratory or cardiovascular problems, please contact your physician for specific guidance and emergency medical advice.
+</string>
+    <string name="high_hum_tp6_12">\t\t\tIn high humidity and temperatures above 6 and below 12 degrees Celsius, the following is recommended:\n
+\t\t\t1. Wear clothes made from warm materials that retain heat well and do not allow moisture to pass through, such as wool or synthetic materials.\n
+\t\t\t2. Avoid prolonged exposure to the street, especially if you are not in motion, to avoid hypothermia and colds.\n
+\t\t\t3. Remember to keep the mucous membranes of your nose and throat moist to prevent dryness and irritation.\n
+\t\t\t4. It is also recommended to avoid significant physical exertion, which can lead to overheating and poor health. If you experience signs of hypothermia or overheating, you should take measures to eliminate them, for example, change into appropriate clothes or go to a more comfortable room.\n
+\t\t\t5. It is also important to keep your body hydrated and drink enough water and other fluids to prevent dehydration.\n
+\t\t\tIf you have any medical concerns related to high humidity and low temperatures, you should consult your doctor for personalized advice.
+</string>
+    <string name="high_hum_tp0_6">\t\t\tIn high humidity and temperatures above 0 and below 6 degrees Celsius, the following is recommended:\n
+\t\t\t1. Warm and windproof clothing should be worn to keep warm and prevent hypothermia.\n
+\t\t\t2. Avoid prolonged exposure to the street and try to quickly return to a warm room. It is recommended to consume hot drinks and food to help keep the body warm.\n\n
+\t\t\tIf it is not possible to return to the premises, then the following recommendations should be observed:\n
+\t\t\t• Stay in the shade and avoid prolonged sun exposure;\n
+\t\t\t• Wear light-colored, breathable clothing made from natural materials;\n
+\t\t\t• Drink enough water to stay hydrated;\n
+\t\t\t• Avoid drinking alcohol and coffee as they can impair skin hydration and increase dehydration;\n
+\t\t\t• Avoid strenuous exercise, especially during the heatwaves;\n
+\t\t\t• Wear a light and breathable hat to protect yourself from the sun;\n
+\t\t\t• Pay attention to your health and if symptoms of dehydration occur (dizziness, nausea, dry mouth), seek medical attention immediately.
+</string>
+    <string name="high_hum_tm0_6">\t\t\tIn high humidity and low temperatures, you need to be especially careful and take precautions to prevent hypothermia and other health problems. Recommendations in this case may include:\n
+\t\t\t1. Wear warm and protective clothing. Dress in layers to keep warm, and choose materials that are good at keeping out wind and moisture.\n
+\t\t\t2. Avoid heat loss through the head and neck. Wear a hat and scarf to protect your head and neck from heat loss.\n
+\t\t\t3. Don\'t overcool. If you begin to feel very cold or shivering, you should immediately return to a room where you can warm up.\n
+\t\t\t4. Drink warm drinks. Hot drinks such as hot chocolate or tea will help warm you from the inside and keep you warm.\n
+\t\t\t5. Be alert for symptoms of hypothermia. Symptoms of hypothermia may include slow thinking, feeling cold, shakiness, drowsiness, lethargy, and poor coordination. If you experience symptoms of hypothermia, seek shelter immediately and try to warm up.
+</string>
+    <string name="high_hum_tm6_12">\t\t\tIn high humidity and temperatures below -6 degrees Celsius, be especially careful. In such conditions, it is recommended to dress warmly and wear protection from wind and rain. \nYou should also avoid being outdoors for a long time and try to find a warm place, such as a room or a car with the heating turned on. \nIf possible, avoid strenuous exercise and keep warm to avoid hypothermia.
+\t\t\tIt is important to remember that at low temperatures with high air humidity, fainting and hypothermia are possible. Therefore, it is necessary to be especially careful and take care of your health in such conditions.
+\t\t\tIf it is not possible to leave the street at high humidity and low temperatures, then the following measures must be taken:\n
+\t\t\t1. Dress warmly and dry to prevent loss of heat and moisture from the body.\n
+\t\t\t2. Avoid heat loss through the head, so wear a hat.\n
+\t\t\t3. Move periodically to maintain blood circulation and heat exchange in the body.\n
+\t\t\t4. Avoid heat loss through the feet, so warm and non-slippery shoes must be worn.\n
+\t\t\t5. It is necessary to consume hot drinks and food to provide the body with energy and warmth.\n
+\t\t\t6. Monitor how you feel and if symptoms of hypothermia appear, take immediate action, such as changing into dry and warm clothes, drinking a hot drink, and moving.
+</string>
+    <string name="high_hum_tm12_18">\t\t\tIn high humidity and low temperature (-18°C to -12°C), the following recommendations should be made:\n
+\t\t\t1. Dress warmly and protect your arms, legs, head and face appropriately.\n
+\t\t\t2. Wear a windproof jacket with a hood.\n
+\t\t\t3. Drink hot drinks such as tea to keep warm.\n
+\t\t\t4. If you begin to feel extreme cold, seek shelter indoors or use transportation.\n
+\t\t\t5. If you have symptoms of hypothermia, such as severe cooling of the body, feeling drowsy and lethargic, seek medical attention immediately.\n
+\t\t\tAvoid hypothermia and always monitor your well-being. If you feel discomfort or inconvenience, it is best to stay outside as little as possible.
+</string>
+    <string name="high_hum_tm18_24">\t\t\tIn high humidity and temperatures above -24 and below -18 degrees Celsius, special care is advised.\n
+\t\t\t1. Clothing should be warm, windproof and waterproof.\n
+\t\t\t2. It is recommended to wear a hat, scarf and gloves to protect against heat loss through the head and hands.\n
+\t\t\t3. If possible, it\'s best to stay indoors, especially if you\'re outside for long periods.\n
+\t\t\tIt is important to remember that at low temperatures, high humidity can increase the feeling of cold and increase the risk of hypothermia. Therefore, it is necessary to monitor your feelings and, if necessary, periodically warm up in warm rooms.
+</string>
+    <string name="high_hum_tm24_30">\t\t\tWhen outdoors in high humidity and temperatures below -24 degrees Celsius, take precautions to protect against hypothermia.\n
+\t\t\t1. It is recommended to wear warm and windproof clothing, hat, scarf and gloves.\n
+\t\t\t2. You should also avoid being outdoors for long periods of time and, if necessary, quicken your pace and seek shelter from wind and moisture.\n
+\t\t\tIf symptoms of hypothermia appear, such as chills, chilliness, drowsiness, fatigue, weakness, low body temperature and a decrease in heart rate, you should immediately seek medical help.
+</string>
+    <string name="high_hum_tm30">\t\t\tIf the temperature outside is too low, the risk of hypothermia can be very high. Combined with high humidity, this can be a serious health hazard. Therefore, it is recommended to avoid prolonged exposure to outdoors under such conditions.\n
+\t\t\t1. If you must go outside, you should wear warm and protective clothing that does not let moisture in, and wear a hat and gloves.\n
+\t\t\t2. It is also recommended to make sure that the face and nose are covered to avoid breathing problems.\n
+\t\t\t3. If you feel familiar symptoms of hypothermia, such as feeling cold, shivering, feeling very tired, you should immediately return to the room and warm up.\n
+\t\t\tIn addition, it is worth considering that at low temperatures, the air is usually drier than in warmer conditions, so humidity may not reach critical levels. However, if you are in a place with a high concentration of water, such as ice, a pool, or snowy slopes, the humidity can be very high. In this case, it is recommended to wear protective clothing that does not allow moisture to pass through, and periodically leave the place where the humidity is highest.
+</string>
+    <string name="low_hum_tp35">\t\t\tWhen the humidity is low and the temperature outside is high, the following guidelines should be followed:\n
+\t\t\t1. Drink more water: In high temperatures and low humidity, the body loses water faster through sweat and breathing. Therefore, you need to drink more fluids to stay hydrated. Drinking water and sports drinks that contain electrolytes is recommended.\n
+\t\t\t2. Avoid prolonged sun exposure: In high temperatures and low humidity, sun exposure can lead to sunstroke or heat stroke. Therefore, avoid prolonged exposure to the sun, especially between 11:00 am and 4:00 pm, when the sun is at its strongest.\n
+\t\t\t3. Avoid intense exercise: In high temperatures and low humidity, exercise can increase the risk of heat stroke. Therefore, avoid intense outdoor exercise and prefer indoor activities.\n
+\t\t\t4. Watch your health: In high temperature and low humidity, you need to watch your health. If you develop symptoms of heat stroke, such as dizziness, weakness, nausea, seek medical attention.
+</string>
+    <string name="low_hum_tp30_35">\t\t\tIn case of low air humidity at high temperatures, the following recommendations should be observed:\n
+\t\t\t1. Drink more water: when air humidity is low, water loss through the skin and lungs increases, so you need to increase your fluid intake.\n
+\t\t\t3. Avoid physical activity during periods of peak heat and extreme dryness of the air: strenuous exercise can increase dehydration of the body and lead to heat stroke.\n
+\t\t\t5. Use Humidifiers: Humidifiers help maintain optimal indoor humidity levels and reduce the risk of dehydration.\n
+\t\t\t6. Remember to protect your skin: Apply sunscreen to exposed skin to prevent dehydration and sunburn.
+</string>
+    <string name="low_hum_tp24_30">\t\t\tWhen outdoor air humidity is low, above 24 degrees Celsius and below 30 degrees Celsius, the following is recommended:\n
+\t\t\t1.Drink enough water. When the air humidity is low, the need for water can increase, so it is important to drink enough water to avoid dehydration.\n
+\t\t\t2. Wear sun protection. Use hats, umbrellas, and sunscreen to protect your skin from the sun\'s rays, which can aggravate skin conditions in low humidity conditions.\n
+\t\t\t3. Avoid intense physical activity outdoors. When the air humidity is low, it can be difficult to breathe, so you should avoid strenuous physical activity outdoors.\n
+\t\t\t4. Avoid overheating. Stay in cool rooms if possible and avoid prolonged exposure to the sun or hot conditions to avoid overheating the body.\n
+\t\t\t5. Watch for signs of dehydration. Signs of dehydration can include thirst, dry mouth, headache, fatigue, weakness, and decreased energy levels. If you notice these symptoms, drink more water and rest in the shade.
+</string>
+    <string name="low_hum_tp18_24">\t\t\tLow humidity at these temperatures can cause dehydration, dry skin and mucous membranes, and eye and respiratory irritation. To deal with these issues, the following is recommended:\n
+\t\t\t1. Drink enough fluids to prevent dehydration. It is preferable to drink water and avoid alcoholic beverages, which can increase dehydration.\n
+\t\t\t2. Use humidifiers or spray water around you to humidify the environment.\n
+\t\t\t3. Wear clothing made from natural materials that allow the skin to breathe and do not cause further dehydration.\n
+\t\t\t4. Avoid prolonged exposure to the sun and try spending time in the shade or indoors.\n
+\t\t\t5. Use creams and balms for lips and skin to relieve dryness and prevent chapping.\n
+\t\t\t6. Avoid strenuous outdoor exercise and prefer lighter sports if possible.\n
+\t\t\t7. If you experience severe eye and respiratory irritation, seek medical attention.
+</string>
+    <string name="low_hum_tp12_18">\t\t\tWhere you are outdoors in conditions of low humidity and temperatures above 12 and below 18 degrees Celsius, the following is recommended:\n
+\t\t\t1. Drink enough water: When air humidity is low, your body evaporates moisture faster through the skin and respiratory tract, which can lead to dehydration. Drink water and other beverages to replenish moisture loss.\n
+\t\t\t2. Avoid prolonged sun exposure: stay in the shade whenever possible to avoid direct sunlight, especially between 11:00 am and 4:00 pm when the sun is at its brightest.\n
+\t\t\t3. Dress appropriately: Wear light clothing made from natural materials that will allow your skin to breathe. Wearing a hat and sunglasses is also recommended.\n
+\t\t\t4. Use humidifiers: To create a more comfortable atmosphere in the room where you are, you can use humidifiers.\n
+\t\t\t5. Wear a sunscreen: Using an SPF cream will help protect your skin from dryness and sunburn.
+     </string>
+    <string name="low_hum_tp6_12">\t\t\tIn case of low air humidity at temperatures above 6 and below 12 degrees Celsius, it is recommended:\n
+\t\t\t1. Avoid alcohol and coffee as they can increase dehydration.\n
+\t\t\t2. Drink enough water and increase your fluid intake if you experience dry mouth or thirst.\n
+\t\t\t3. Avoid prolonged exposure to the sun and hot environments.\n
+\t\t\t4. Use an indoor humidifier, especially if you spend most of your time indoors.\n
+\t\t\t5. Wear clothing made from natural materials that can help retain moisture in the skin.\n
+\t\t\t6. Seek medical attention if you experience severe dryness in your eyes or nose because this could be a sign of a more serious condition.
+</string>
+    <string name="low_hum_tp0_6">\t\t\tIn low humidity and temperatures above 0 and below 6 degrees Celsius, the following recommendations can be made:\n
+\t\t\t1. Drink enough water to prevent dehydration.\n
+\t\t\t2. Use indoor humidifiers or carry a facial humidifier.\n
+\t\t\t3. Apply moisturizers and lip balms to prevent dryness and chapping.\n
+\t\t\t4. Wear windproof and windproof clothing to prevent heat loss and dry skin.\n
+\t\t\t5. Avoid prolonged exposure to the street, especially windy places, to prevent hypothermia and dehydration.
+</string>
+    <string name="low_hum_tm0_6">\t\t\tIn case of low air humidity and temperatures above -6 and below 0 degrees Celsius, it is recommended:\n
+\t\t\t1. Wear clothing that keeps you warm and prevents moisture loss, such as a waterproof jacket, wool hat, waterproof gloves, and warm boots.\n
+\t\t\t2. Avoid getting cold, but don\'t overwork, moderate activity can help keep you warm.\n
+\t\t\t3. Apply barrier cream to face and lips to prevent dehydration.\n
+\t\t\t4. Drink plenty of warm liquids to prevent dehydration and keep your body hydrated.\n
+\t\t\t5. Avoid alcohol and coffee as they can cause dehydration.\n
+\t\t\t6. Use an indoor humidifier to help maintain moisture levels in your skin.
+</string>
+    <string name="low_hum_tm6_12">\t\t\tWhile outside in temperatures above -12 and below -6 degrees Celsius and low humidity, the following recommendations should be taken:\n
+\t\t\t1. Dress warmly and protect yourself from the wind so you don\'t lose heat through your skin.\n
+\t\t\t2. Use a humidifier in your home or workplace.\n
+\t\t\t3. Drink enough water to prevent dehydration.\n
+\t\t\t4. Avoid prolonged exposure to the outdoors and limit physical activity, especially if you are not used to the cold.\n
+\t\t\t5. Use a cream to protect the skin from chapping and drying.
+</string>
+    <string name="low_hum_tm12_18">\t\t\tIn low humidity above -18 and below -12 degrees Celsius recommended:\n
+\t\t\t1. Avoid prolonged exposure to the street.\n
+\t\t\t2. Use indoor humidifiers.\n
+\t\t\t3. Drink enough fluids to keep your body hydrated.\n
+\t\t\t4. Avoid alcohol and coffee, which can lead to dehydration.\n
+\t\t\t5. Use moisturizing creams and balms to protect the skin from drying out and dehydration.\n
+\t\t\t6. If necessary, use eye drops to prevent dry eyes.
+</string>
+    <string name="low_hum_tm18_24">\t\t\tIn case of low humidity at temperatures above -24 and below -18 degrees Celsius, the following recommendations should be observed:\n
+\t\t\t1. Use wet wipes or moisturise your skin with cream to avoid drying out and irritating your skin.\n
+\t\t\t2. Drink plenty of fluids to keep your body hydrated.\n
+\t\t\t3. Avoid long periods of time outdoors, especially if you are not prepared for the weather.\n
+\t\t\t4. Use indoor humidifiers where possible.\n
+\t\t\t5. Avoid alcohol and coffee, which can aggravate dehydration.\n
+\t\t\tAll these recommendations will help reduce the risk of dry skin, dehydration and other problems associated with low humidity in cold weather.
+     </string>
+    <string name="low_hum_tm24_30">\t\t\tIn such low temperatures, low humidity can cause dehydration, as water evaporates faster from the skin and lungs in cold air.\n
+\t\t\tTo prevent dehydration, it is recommended to drink enough water and avoid alcohol and caffeinated drinks, which can increase dehydration.\n
+\t\t\tYou also need to be careful what you wear to prevent heat loss through your skin and lungs.\n
+\t\t\tSufficient ventilation must be provided to avoid overheating the body.\n
+\t\t\tUsing a humidifier indoors can help keep the humidity in a comfortable range and reduce dry skin and mucous membranes.
+</string>
+    <string name="low_hum_tm30">\t\t\tAt very low temperatures (-30 degrees Celsius and below), air humidity does not play a special role. However, it\'s important to remember to wear the right clothes when you\'re in these conditions.\n
+\t\t\tThe following tips will help prevent problems associated with low humidity at low temperatures:\n
+\t\t\t1. Avoid prolonged outdoor exposure at very low temperatures.\n
+\t\t\t2. Drink plenty of fluids to stay hydrated.\n
+\t\t\t3. Use indoor humidifiers to increase humidity levels.\n
+\t\t\t4. Avoid using alcohol and tobacco, as they can increase dehydration and worsen your chances of retaining heat in your body.
+</string>
+    <string name="temp_p35">\t\t\tWhen temperatures are high above 35 degrees Celsius, the following guidelines should be followed to reduce the risk of heat stroke and other heat-related illnesses:\n
+\t\t\t1. Drink more fluids than usual. Drinking water, isotonic drinks, or drinks with added electrolytes such as sodium and potassium is recommended. Avoid drinking alcoholic beverages as they can worsen dehydration.\n
+\t\t\t2. Avoid prolonged exposure to the sun during periods of extreme heat, especially between 11:00 am and 3:00 pm when the sun is at its strongest. If you must go outside during this time, use a high SPF sunscreen and wear a hat, sunglasses, and sun protection clothing.\n
+\t\t\t3. Avoid intense physical activity during periods of extreme heat. If you still decide to exercise, choose a time early in the morning or late in the evening when the air temperature is cooler.\n
+\t\t\t4. Stay in well-ventilated areas or in the shade. If you don\'t have air conditioning, use fans or cooling devices. You can also take a cool shower or bath.\n
+\t\t\t5. Wear light, loose clothing made from natural materials such as cotton that allows the skin to breathe.\n
+\t\t\t6. Pay attention to how you feel and watch for signs of heat stroke, such as dizziness, extreme fatigue, nausea, weakness, and fainting. If you experience these symptoms, contact your doctor immediately.
+</string>
+    <string name="temp_p30_35">\t\t\tIf the temperature is between 30 and 35 degrees Celsius, the following recommendations should be accepted:\n
+\t\t\t1. Wear light, loose clothing that will allow your body to breathe and wick away excess heat.\n
+\t\t\t2. Remember to drink enough water to prevent dehydration. Avoid alcohol and coffee as they can increase dehydration.\n
+\t\t\t3. Wear a hat and sunglasses to protect your skin and eyes from sunlight.\n
+\t\t\t4. Avoid prolonged exposure to direct sunlight between 10:00 am and 4:00 pm, when the sun is at its most active.\n
+\t\t\t5. Use a high protection sunscreen.\n
+\t\t\t6. Stay in the background if possible.\n
+\t\t\t7. If you experience dizziness, nausea, weakness, or other symptoms of overheating, immediately seek a cool place and drink water.
+     </string>
+    <string name="temp_p24_30">\t\t\tIf you are outside and the temperature is above 24 and below 30 degrees Celsius, the following is recommended:\n
+\t\t\t1. Drink enough water to avoid dehydration. In hot weather, water requirements may be higher than usual.\n
+\t\t\t2. Avoid direct sunlight and try to be in the shade. If possible, stay indoors with air conditioning or a fan.\n
+\t\t\t3. Wear light and light clothing made from natural fabrics that are breathable. Don\'t wear too tight clothes.\n
+\t\t\t4. Remember to use sunscreen on exposed skin to prevent sunburn and other skin damage.\n
+\t\t\t5. If you have the opportunity, schedule your activities for cooler times of the day, such as early morning or evening.\n
+\t\t\t6. Be attentive to your body and do not overwork. If you feel tired or dizzy, it is best to stop your activity immediately and rest in the shade.
+</string>
+    <string name="temp_p18_24">\t\t\tIf the temperature is between 18 and 24 degrees Celsius, then the optimal humidity level for comfortable outdoors is around 50%. Higher humidity increases the feeling of heat, while lower humidity increases the risk of dehydration.\n
+\t\t\t1. Drink enough water to avoid dehydration. In hot weather, water requirements may be higher than usual.\n
+\t\t\t2. Avoid direct sunlight and try to be in the shade. If possible, stay indoors with air conditioning or a fan.\n
+\t\t\t3. Wear light and light clothing made from natural fabrics that are breathable. Don\'t wear too tight clothes.\n
+\t\t\t4. Remember to use sunscreen on exposed skin to prevent sunburn and other skin damage.\n
+\t\t\t5. If you have the opportunity, schedule your activities for cooler times of the day, such as early morning or evening.\n
+\t\t\t6. Be attentive to your body and do not overwork. If you feel tired or dizzy, it is best to stop your activity immediately and rest in the shade.
+</string>
+    <string name="temp_p12_18">\t\t\tIf you are outside and the temperature is above 12 degrees Celsius and below 18 degrees Celsius, make sure you are dressed appropriately to keep warm but not overheat.\n
+\t\t\tIt is recommended to wear insulated clothing such as a sweater or jacket and remember to protect yourself from the wind. It\'s also important to drink enough water to stay hydrated.\n
+\t\t\tIf you are exercising outdoors, you should reduce the intensity of your activities during hot weather, as this can lead to overheating and heat stroke.\n
+\t\t\tChoose a cooler time of day to practice, such as early in the morning or late in the evening.\n
+\t\t\tAlso remember to use sunscreen and wear a hat to protect your skin and head from the sun\'s rays.\n
+\t\t\tFinally, monitor your well-being, and if you experience signs of heat stroke, such as dizziness, nausea, weakness, seek medical attention immediately.
+</string>
+    <string name="temp_p6_12">\t\t\tWhile outside in temperatures between 6 and 12 degrees Celsius, it is recommended to wear light, warm clothing that allows you to keep your body warm but not overheat.\n
+\t\t\tIt is also necessary to drink enough water to avoid dehydration, which can occur due to moisture loss through the skin and respiratory tract.\n
+\t\t\tIn addition, it is recommended to use a humidifier in the room where you are in order to reduce the drying of the mucous membranes and skin. If you spend a lot of time outdoors, don\'t forget to use moisturizers and skin care balms, especially on your face, lips, and hands.\n
+\t\t\tIt is also important to avoid prolonged exposure to the sun and use sunscreen if you are outdoors during the solar activity.\n
+\t\t\tFinally, you should take into account the individual characteristics of the body and listen to your well-being. If you feel uncomfortable with low humidity, it\'s best to stay indoors or increase the humidity level around you.
+</string>
+    <string name="temp_p0_6">\t\t\tIf you are outside and the temperature is above 0 and below 6 degrees Celsius, the following is recommended:\n
+\t\t\t1. Put on an insulated jacket, hat, scarf and gloves.\n
+\t\t\t2. Wear warm shoes and socks.\n
+\t\t\t3. Avoid hypothermia and prolonged exposure to the street.\n
+\t\t\t4. Drink hot tea, coffee, or other hot drinks to keep warm.\n
+\t\t\t5. Watch yourself for signs of hypothermia such as shaking, slow thinking, fatigue, and drowsiness. If you have these symptoms, go back indoors and warm up.\n
+\t\t\t6. Use an indoor humidifier to prevent dry skin and mucous membranes.\n
+\t\t\t7. Remember to protect yourself from the sun, even if the temperature is low. Apply sunscreen to your face and other exposed skin.\n
+\t\t\t8. If you\'re exercising outdoors, reduce the intensity of your workout and remember to drink enough water to stay hydrated.
+</string>
+    <string name="temp_m0_6">\t\t\tIf the temperature is between -6 and 0 degrees Celsius, the following is recommended:\n
+\t\t\t1. Dress warmly and insulate to avoid hypothermia.\n
+\t\t\t2. Wear a warm hat, gloves, and scarf to protect your face, ears, and hands from the cold and wind.\n
+\t\t\tHowever, if the temperature drops further, more serious measures must be taken to protect against the cold, including wearing warm and windproof clothing, staying in warm rooms, etc.\n
+\t\t\tIt is important to monitor your feelings and signs of hypothermia, such as trembling, numbness, and redness of the skin, and take immediate action to avoid negative consequences.
+</string>
+    <string name="temp_m6_12">\t\t\tWhen outdoors in temperatures above -12 and below -6 degrees Celsius, the following is recommended:\n
+\t\t\t1. Dress Warmly: Wear several layers of warm clothing to keep warm and protect from the cold wind.\n
+\t\t\t2. Protect your hands, feet, and head: Wear warm gloves, thermal socks, a hat, and a scarf to protect against heat loss through the extremes of your body.\n
+\t\t\t3. Moisturize your skin: In cold, dry conditions, skin can dry out, so using a moisturizer can help lock in moisture.\n
+\t\t\t4. Drink plenty of fluids: Remember to drink water or other fluids, even if you don\'t feel thirsty. In cold conditions, a person may not notice the loss of fluid through sweat, but this can lead to dehydration.\n
+\t\t\t5. Be careful on ice and snow: On cold days, ice and snow can be slippery and dangerous to walk on. Be careful and use suitable footwear.
+</string>
+    <string name="temp_m12_18">\t\t\tWhile outside in temperatures between -18 and -12 degrees Celsius, take the following steps to maintain a comfortable level of humidity:\n
+\t\t\t1. Dress warmly and comfortably to avoid hypothermia.\n
+\t\t\t2. Use humidifiers in the room where you are to reduce dry air.\n
+\t\t\t3. Drink enough water to stay hydrated.\n
+\t\t\t4. Avoid being outdoors in windy weather, as the wind increases the feeling of cold and increases the evaporation of moisture from the surface of the skin.\n
+\t\t\t5. Use a skin moisturizer to prevent dry and irritated skin.\n
+\t\t\t6. Remember to protect your skin from the cold by wearing hats, scarves, gloves and other appropriate clothing.
+</string>
+    <string name="temp_m18_24">\t\t\tIf the temperature is between -24 and -18 degrees Celsius and you are outside, you should take steps to protect your body from the cold and reduce the risk of hypothermia. Some recommendations:\n
+\t\t\t1. Dress warmly and properly. Wear a warm hat, scarf, gloves, warm jacket, thermal underwear and warm socks. Avoid cotton clothing as it will not keep you warm if it becomes damp from sweat or snow.\n
+\t\t\t2. Avoid hypothermia. Avoid prolonged exposure to outdoors and avoid sweat as moisture increases heat loss through the skin.\n
+\t\t\t3. Drink warm drinks. Drink hot tea, coffee, or cocoa to help keep your body warm and prevent dehydration.\n
+\t\t\t4. Be careful on the ice. Be careful on icy paths and sidewalks to avoid falls and injury.\n
+\t\t\t5. Watch for signs of hypothermia. If you feel very cold, slow thinking, tired or drowsy, this may be a sign of hypothermia. Stop being outside immediately and find a warm place to warm up.
+</string>
+    <string name="temp_m24_30">\t\t\tWith such low temperatures and dry air, measures must be taken to protect against the cold. Here are some suggestions:\n
+\t\t\t1. Dress warmly. Wear a warm jacket, hat, gloves, scarf, thermal underwear, warm socks, and insulated shoes.\n
+\t\t\t2. Avoid prolonged exposure to the street. If you cannot avoid being outdoors for long periods, take breaks to cool off in warm rooms.\n
+\t\t\t3. Protect your face. When the temperature drops, the skin on the face becomes very sensitive, so it is necessary to protect it from the cold. Wear a scarf or mask to protect your face from the cold wind.\n
+\t\t\t4. Drink enough water. Drinking enough water is often forgotten during the cold season, but staying hydrated is essential to prevent dehydration and keep your organs functioning properly.\n
+\t\t\t5. Be careful on the ice. In low temperatures, roads and sidewalks can be covered with ice and ice, so be careful to avoid injury.\n
+\t\t\t6. Avoid smoking and drinking alcohol. Smoking and drinking impair circulation and can lead to hypothermia.\n
+\t\t\t7. Be prepared for an emergency. If necessary, know how to deal with hypothermia or frostbite.\n
+\t\t\tDue to the extremely low temperatures, it is recommended to stay outside as little as possible and go into warm rooms whenever possible.
+</string>
+    <string name="temp_m30">\t\t\tWhile outdoors in very cold temperatures (-30°C and below), extra care should be taken to prevent frostbite. Some security recommendations include:\n
+\t\t\t1. Wear enough warm and insulated clothing that will protect you from the cold and wind. Don\'t forget to wear a hat, gloves, scarf and warm socks.\n
+\t\t\t2. Drink hot drinks such as tea or soup to keep your body warm.\n
+\t\t\t3. Don\'t freeze in place and try to move around to keep your body warm.\n
+\t\t\t4. Remember to cover all exposed body parts such as your face and ears to prevent frostbite.\n
+\t\t\t5. Stay outside only when necessary, try to stay indoors as much as possible.\n
+\t\t\t6. Seek medical attention if you notice signs of frostbite, such as itching, numbness, bluish skin, or soreness.
+</string>
+    <string name="wind_2_12_25">\t\t\tIf the temperature outside is normal (from +12°C to +25°C) and the wind is weak (from 0.3 to 1.6 m/s), then you can dress comfortably in light clothes and don\'t worry about the wind. \nHowever, if the wind raises dust and dirt, it is better to wear goggles and a mask.</string>
+    <string name="wind_2_25p">\t\t\tIf the temperature outside is high (over +25°C) and the wind is weak (from 0.3 to 1.6 m/s), then you should dress lightly and loosely, it is preferable to choose clothes made from natural materials such as cotton or linen. \nHowever, if there is direct sunlight, you should wear a hat to protect yourself from the sun</string>
+    <string name="wind_2_12m">\t\t\tIf the temperature outside is low (below +12°C) and the wind is light (from 0.3 to 1.6 m/s), then you should dress warmly and wear thermal clothing or woolen clothing. \nWe recommend wearing a hat to keep your head warm.</string>
+    <string name="wind_3">\t\t\tWhen the wind is 1.6-3.4 m/s, it is recommended to pay attention to the following points:\n
+\t\t\t1. Dress appropriately for the weather and wind. Wear light but heavy clothing to keep your body warm and out of the wind. Don\'t forget your hat and gloves.\n
+\t\t\t2. Avoid prolonged exposure to open wind.\n
+\t\t\t3. Be prepared for strong gusts of wind. They can blow at any moment and can change the direction of the wind. Maintain your balance to avoid falls and injury.\n
+\t\t\t4. If you are active outdoors, consider the effect of wind on your body. Wind can increase the feeling of cold and increase the risk of hypothermia. At the same time, do not forget about proper hydration and food intake.
+</string>
+    <string name="wind_4">\t\t\tIf you are outside with 3.4-5.5 m/s wind, the following is recommended:\n
+\t\t\t1. Wear clothing that will protect you from the wind. Windproof jackets, pants, scarves and gloves are ideal. It is also important to wear a hat to protect your head from heat loss.\n
+\t\t\t2. If possible, stay in a sunny location where there is no direct wind.\n
+\t\t\t3. Be attentive to your body and do not allow hypothermia. If you are cold, try to find a warm place to warm up. If that\'s not possible, try increasing your traffic or warming up with a hot drink.\n
+\t\t\t4. Remember that strong winds make you feel colder, so don\'t forget to wear extra clothing and check to see if your limbs are cold.
+</string>
+    <string name="wind_5">\t\t\tWhen the wind blows at a speed of 5.5-8 m/s outside, it is important to take measures to protect against its effects. Here are some suggestions:\n
+\t\t\t1. Use wind protection: In the presence of strong winds, it is recommended to wear windproof clothing or a windbreaker. Such clothing can protect you from cold and wind while keeping your body warm.\n
+\t\t\t2. Be careful on the roads: In strong winds, roads can be dangerous, especially if the wind is blowing sideways. Be careful and careful to avoid falling or colliding with cars or other people.\n
+\t\t\t3. Avoid prolonged exposure to the open air: If possible, try to avoid prolonged exposure to the open air, especially if it is cold and windy outside. If it is necessary to go outside, try to quickly complete your business and return inside.\n
+\t\t\t4. Keep an eye on the weather forecast: Keep an eye on the weather forecast so you know what to expect outside. If there is a strong wind ahead, it is better to postpone going outside, especially if it is cold outside.
+</string>
+    <string name="wind_6">\t\t\tWhen the wind blows at a speed of 8-10.8 m/s outside, it is important to take measures to protect against its effects. Here are some suggestions:\n
+\t\t\t1. Wear warm and thick clothing that does not let the wind through. A scarf, hat and gloves are also needed to protect against cold and wind.\n
+\t\t\t2. Avoid prolonged exposure to the street and limit physical activity to a minimum.\n
+\t\t\t3. If you are cold, immediately return to a warm room and warm up. Do not try to warm up quickly by taking a bath or hot shower - this can lead to hypothermia and other serious health problems.\n
+\t\t\t4. Avoid wearing clothes that can get caught in or loosen by the force of the wind, such as flying skirts, hats, scarves, wide pants, etc.\n
+\t\t\t5. If you are driving, be aware that maneuvering can be difficult due to the wind. Keep your hands on the steering wheel and don\'t panic if the car begins to roll.\n
+\t\t\t6. If you\'re cold and can\'t find a warm place, try to block out the wind as much as possible and create shelter. For example, find a building wall or other sheltered corner and take shelter from the wind there.
+</string>
+    <string name="wind_7">\t\t\tWhen the wind speed reaches 10.8-13.9 m/s outside, the following guidelines should be followed:\n
+\t\t\t1. Dress warmly and comfortably. Wear a windproof jacket, hat, gloves, scarf, or hydrangea to keep out the wind. Avoid synthetic materials and prefer natural fabrics such as wool and cotton.\n
+\t\t\t2. Avoid prolonged exposure to the street. If you cannot avoid going outside, try to limit your activities to a minimum and return indoors as soon as possible.\n
+\t\t\t3. Avoid open spaces. Stay as close to buildings as possible to reduce your exposure to the wind.\n
+\t\t\t4. Be careful when crossing the street. With winds of 10.8-13.9 m/s it can be difficult to stay still, so be careful when crossing the road and don\'t risk crossing the street unless you are sure you can do it safely.\n
+\t\t\t5. Watch your health. Wind can cause hypothermia even if the temperature outside is not too cold. If you feel very tired, dizzy, weak, or numb, seek shelter indoors immediately.\n
+\t\t\t6. Don\'t forget about hydration. Wind can cause dehydration, so remember to drink water and other fluids to stay hydrated and healthy.\n
+</string>
+    <string name="wind_8">\t\t\tWhen the wind speed reaches 13.9-17.2 m/s outside, it can be dangerous for people. Here are some tips to help protect yourself:\n
+\t\t\t1. Dress warmly. Cold wind can quickly cool your body, so wear warm clothes to keep warm. Remember that insulated clothing should be loose so that air can circulate and not restrict movement.\n
+\t\t\t2. Put on a headdress. The wind can make your head very cold, so wear a warm hat or other headgear that will cover your ears and protect them from the cold.\n
+\t\t\t3. Wear glasses. If you wear glasses, wear them outside to protect your eyes from the wind. It is better to use glasses with longer protective frames.\n
+\t\t\t5. Avoid open spaces. In strong winds, avoid open spaces such as parks and squares. Seek shelter in buildings, sheltered from the wind.\n
+\t\t\t6. Stay away from trees and billboards. Strong winds can break trees and tear up billboards. Stay away from them in strong winds.\n
+\t\t\t7. Be careful with cars. Strong winds can knock debris, branches, and other objects off the track, which can be dangerous to moving vehicles. Be careful when near or crossing a road.\n
+\t\t\tBut the most important thing to remember is not to risk your health, if you doubt your safety, it is better to stay at home
+</string>
+    <string name="wind_9">\t\t\tWhen the wind blows at a speed of 17.2-20.8 m/s, it is already quite a strong wind. In such conditions, dangerous situations can be encountered, so it is important to follow the safety recommendations.\n
+\t\t\tHere are a few tips that can help in such conditions:\n
+\t\t\t1. If the wind is accompanied by rain or snow, avoid standing under trees or structures that could collapse.\n
+\t\t\t2. If you are in an open area, shield yourself from the wind with a wall or other large object to reduce its impact.\n
+\t\t\t3. If you are in a car, slow down and make sure you have a firm grip on the steering wheel. Also follow road signs and stay away from places where there may be collapses.\n
+\t\t\t4. If you are on the coast of the sea or lake, do not try to enter the water. Dangerous because the waves can be very strong.\n
+\t\t\t5. Don\'t climb high. The wind at high altitude can be much stronger than at ground level and could cause an accident.\n
+\t\t\t6. Wear warm clothing because the wind can chill your body, even if the air temperature doesn\'t seem too cold.\n
+\t\t\t7. If you have to work outdoors in these conditions, make sure you are provided with appropriate protective clothing and personal protective equipment.\n
+\t\t\t8. Don\'t play with the wind and don\'t try to beat it. Follow the safety guidelines to avoid accidents.
+</string>
+    <string name="wind_10">\t\t\tWinds of 20.8-24.5 m/s correspond to stormy winds that can cause serious outdoor safety issues. Below are some guidelines that can help you stay safe in these conditions:\n
+\t\t\t1. Try not to go outside unless absolutely necessary. If you must exit, avoid open spaces and try to use protected routes such as pedestrian underpasses or overhangs.\n
+\t\t\t2. If you do have to be in an open area, stay away from large objects such as tall buildings, trees, signs, or electric poles, which can easily be damaged and fall. Avoid walking along coasts or ports where damaging waves are possible.\n
+\t\t\t3. If you are in a car, park in a safe place away from tall buildings, trees, and electric poles. Stay inside the vehicle, close the windows, and do not attempt to drive further until the weather improves.\n
+\t\t\t4. If you are in an open area, try to stay low to the ground to reduce the effect of the wind. If possible, crouch or lie flat on the ground and try to take cover under something heavy and stable, such as a large rock or wall.\n
+\t\t\t5. Wear warm and durable clothing to protect yourself from the cold and gusts of wind. A warm jacket, hat, gloves, and warm, windproof boots work well. If possible, wear a helmet or other head protection.\n
+\t\t\t6. Be careful when moving down the street. The wind can cause unsteadiness and disorientation, especially if it comes in gusts. Hold on to solid surfaces such as the walls of buildings to keep your balance.\n
+</string>
+    <string name="wind_11">\t\t\tWhen it\'s windy at this speed outside, there is a risk of injury and health hazard. Therefore, it is better to refrain from staying in open areas and go outside only in extreme cases.\n
+\t\t\tIf you still must be outside in this weather, the following is recommended:\n
+\t\t\t1. Wear warm, windproof and waterproof clothing that covers most of your body. It should be loose enough to allow movement, but not too loose to keep cold air out.\n
+\t\t\t2. Wear a hat, scarf, and gloves to protect your head, neck, and hands from the cold and wind.\n
+\t\t\t3. Avoid outdoor areas such as parks, beaches and squares. If you are outdoors, try to stay close to buildings that can protect you from the wind.\n
+\t\t\t4. If you are moving outdoors, try to go against the wind. This will not only allow you to move more efficiently, but also reduce the effect of wind on your body.\n
+\t\t\t5. If you are in a car or on a bike, make sure you are well zipped and protected from the cold and wind.\n
+\t\t\t6. Be prepared for the fact that in such weather the way to work or home may take longer than usual, as you will move more slowly due to strong winds.\n
+\t\t\t7. Remember that being outside in this weather can be dangerous, so it\'s best to try to stay at home and avoid going out if possible. If you must go outside, be sure to follow the above guidelines and be extremely careful.
+</string>
+    <string name="wind_12">\t\t\tWhen the wind reaches 28.5-32.6 m/s (corresponding to a Category 12 Beaufort hurricane), it can be very dangerous to be outside. We recommend that you take the following precautions:\n
+\t\t\t1. Avoid going outside if necessary, limit your time outside to a minimum.\n
+\t\t\t2. If you do have to be outside, wear thick clothing and cover your head and neck with a scarf or hood to protect yourself from possible gusts of wind and cold air.\n
+\t\t\t3. If you are in a car or other vehicle, slow down and be very careful on the roads. Avoid driving near buildings and other objects that could be damaged or fall over by strong winds.\n
+\t\t\t4. Avoid outdoor areas such as fields, beaches, and golf courses where you may be exposed to falling objects that may be caught in the wind.\n
+\t\t\t5. Stay away from trees, buildings, and other objects that may fall or be damaged by strong winds. Avoid standing under dangling electrical wires or near trees that can break and fall.\n
+\t\t\t6. If you see a storm coming, follow the instructions from local authorities and stay in a safe area until the danger has passed.
+</string>
+    <string name="wind_13">\t\t\tIf the wind outside is 32.6 m/s or higher, it is extremely dangerous to be outside. Such wind speeds can cause severe damage to buildings and infrastructure, as well as damage to power lines, trees and other objects. It is recommended that you urgently take shelter inside the building and stay there until the weather conditions improve.\n
+\t\t\tIf you can\'t find shelter, try finding some kind of shelter from the wind, such as a fence, the wall of a building, or a car. If possible, stay away from windows or doors where danger may arise. If there are people or animals outside, try to warn them of the danger and help them find shelter.\n
+\t\t\tIt is important to remember that in such conditions a person\'s balance is disturbed, and he can be knocked off his feet by the wind. Therefore, do not risk your life and remain calm until the weather improves. If you think you are in a dangerous situation, call emergency help immediately.
+</string>
+    <string name="code_45_48">\t\t\t1. Be extremely careful when walking and driving on the roads: fog with frost can make the surface very slippery and dangerous for movement. Keep an eye on the surface and apply smoothness or de-icer if necessary.\n
+\t\t\t2. Increase the distance between yourself and other vehicles: visibility on the road will be reduced, so you must keep a safe distance between yourself and other vehicles.\n
+\t\t\t3. Turn on your vehicle\'s headlights: headlights will help increase the visibility of your vehicle and reduce the risk of possible accidents.\n
+\t\t\t4. Be especially careful on roads and sidewalks as they can be slippery and dangerous. Avoid fast walking and running to avoid falls.\n
+\t\t\t5. If you are driving, slow down and make sure you can see the road and other vehicles in front of you.\n
+\t\t\t6. If you have long hair, keep it covered to avoid freezing. It is also recommended to wear a hat to keep the head warm.
+</string>
+    <string name="code_51">\t\t\tRecommended for light drizzle:\n
+\t\t\t1. Wear waterproof clothing and shoes so you don\'t get wet or get sick.\n
+\t\t\t2. Be careful on the road as the asphalt can get slippery.\n
+\t\t\t3. Slow down your movement speed to avoid accidents.\n
+\t\t\t4. Ensure good visibility by using headlights and windshield wipers.\n
+\t\t\t5. Wear hats and gloves to keep body warm.
+</string>
+    <string name="code_53">\t\t\tIf there is moderate drizzle outside, be aware that it can lead to poor visibility and make the road surface slippery, which can be dangerous for pedestrians and drivers.\n
+\t\t\tHere are a few tips for staying safe outdoors in moderate drizzle:\n
+\t\t\t1. Wear appropriate clothing. Wear a waterproof jacket and pants that will keep you dry. If possible, choose light colors that reflect light better and provide better visibility.\n
+\t\t\t2. Shoes should be comfortable and with good moisture protection to avoid slipping on wet surfaces.\n
+\t\t\t3. Use umbrellas or hoods on jackets to keep out the drizzle.\n
+\t\t\t4. Make sure you can see and hear your surroundings well, especially if you are on the road. Wear bright clothing or reflective pieces for better visibility.\n
+\t\t\t5. Be careful on the roads. Make sure you can see and hear cars approaching, and pay attention to sidewalks, which can be slippery.\n
+\t\t\t6. When traveling by car, slow down and increase your distance from other vehicles on the road.
+</string>
+    <string name="code_55">\t\t\tIn heavy drizzle, you may experience reduced visibility, slippery roads and sidewalks, and a feeling of cold. Here are some suggestions:\n
+\t\t\t1. Be careful on roads and sidewalks as they can be slippery. Use shoes with good soles for better traction. If possible, take routes with less traffic.\n
+\t\t\t2. If you are driving, increase your distance from the vehicles in front and slow down. Turn on your headlights for increased visibility and be sure to check the condition of the windshield and wipers.\n
+\t\t\t3. Wear warm and waterproof clothing to avoid feeling cold. Don\'t forget to wear a hat and gloves to protect yourself from heat loss through your head and hands.\n
+\t\t\t4. If you are on foot, use umbrellas or raincoats to protect yourself from wet drizzle. But remember that umbrellas can limit your visibility, so use them with care.\n
+\t\t\t5. In case you have the opportunity, it is better to stay at home to avoid trouble.
+</string>
+    <string name="code_56">\t\t\tLight freezing drizzle is a weather hazard as it can cause ice to form on roads and sidewalks, increasing the risk of falls and injury.\n
+\tHere are some tips for staying safe during light icy drizzle:\n
+\t\t\t1. Be careful on roads and sidewalks, especially on bridges and tunnel entrances. Ice can be invisible, so you have to pay special attention to it.\n
+\t\t\t2. Move slowly and carefully, do not make sudden movements or rush, especially on slopes and sloping surfaces.\n
+\t\t\t3. Shoes should have good non-slip soles to increase traction.\n
+\t\t\t4. If you are driving a car, slow down and slow down to the vehicles in front.\n
+\t\t\t5. Remember that visibility can be greatly reduced in light icy drizzle, so be especially careful and careful on the roads.
+</string>
+    <string name="code_57">\t\t\tIf there is heavy icy drizzle outside, then the following recommendations should be taken:\n
+\t\t\t1. Be careful on roads and sidewalks as they can be very slippery. Move slowly and carefully, using shoes with good traction.\n
+\t\t\t2. Try to avoid driving or, if necessary, slow down and stay away from other vehicles.\n
+\t\t\t3. Avoid immovable objects such as poles or trees, which may be covered in ice and hold firmly to the surface.\n
+\t\t\t4. Wear warm and protective clothing, including a hat and gloves. Also wear sunglasses to protect your eyes from ice particles.\n
+\t\t\t5. Avoid prolonged exposure to freezing drizzle outdoors, especially if you have health problems such as breathing or circulation problems.
+</string>
+    <string name="code_61">\t\t\tIf you are outside during light rain, here are some suggestions:\n
+\t\t\t1. Dress appropriately. Wear a waterproof jacket or raincoat to avoid getting wet, and a hat to protect your head from the rain.\n
+\t\t\t2. Avoid deep puddles and streams. They may be deeper and faster than you expected and may be hazardous to your health.\n
+\t\t\t3. Be careful on wet surfaces. Rain can make the surface slippery, so be careful not to slip or fall.\n
+\t\t\t4. Wear bright clothes. When it rains, visibility may be reduced, so wear bright clothing or reflective items to be seen by others.\n
+\t\t\t5. Avoid open spaces. During thunderstorms, avoid open spaces such as fields and beaches to avoid possible lightning strikes.
+</string>
+    <string name="code_63">\t\t\tIf you are outside and it is raining moderately, follow these guidelines:\n
+\t\t\t1. Use rain protection such as an umbrella or raincoat to keep you dry.\n
+\t\t\t2. Wear clothes that dry quickly and don\'t get wet through, such as those made from artificial materials.\n
+\t\t\t3. Be careful on slippery surfaces such as metal or stone steps.\n
+\t\t\t4. Keep an eye on the temperature outside and make sure you\'re warm, especially if the rain is accompanied by cold winds.
+</string>
+    <string name="code_65">\t\t\tIf it is raining heavily outside, the following recommendations should be observed:\n
+\t\t\t1. Use rain protection. If you have an umbrella, it\'s best to take it with you. If not, you can use a hood, but it\'s best to wear a waterproof jacket with a hood.\n
+\t\t\t2. Be careful on wet roads. The road can be slippery and unpredictable, especially at intersections and curves. Slow down and maintain a safe distance from other vehicles and pedestrians.\n
+\t\t\t3. Avoid flooded areas. Never walk or drive on flooded roads or sidewalks. The depth of the water may be deeper than it appears, and the current may be very strong.\n
+\t\t\t4. Wear eye protection. If you are riding a bicycle or motorcycle, wear safety goggles to protect your eyes from raindrops and splashes.\n
+\t\t\t5. Prepare your vehicle. If you are going to drive, make sure your car is ready to drive in rainy weather. Check the condition of the tires, brakes and windshield.
+</string>
+    <string name="code_66">\t\t\tIf it\'s light freezing rain outside, follow these guidelines:\n
+\t\t\t1. Be careful on roads and sidewalks. Freezing rain can cause ice to form, making it difficult to get around.\n
+\t\t\t2. Avoid driving if possible. If you must get on the road, slow down and stay clear of other vehicles.\n
+\t\t\t3. Dress warmly and wear sturdy shoes. This will help you avoid health problems in cold and wet weather.\n
+\t\t\t4. Stay clear of objects that could rupture or break due to the weight of the ice, such as trees, power poles, etc.\n
+\t\t\t5. If you are in a strong wind area, use a hood or umbrella to protect yourself from freezing rain and wind.\n
+</string>
+    <string name="code_67">\t\t\tIf you are outside and there is heavy freezing rain, there is a risk of icing on the surface of roads and sidewalks, which can lead to dangerous situations, especially when driving vehicles. Here are some tips for safe movement:\n
+\t\t\t1. Wear shoes with good non-slip soles to reduce the risk of slipping on ice.\n
+\t\t\t2. Be especially careful at intersections where ice can be hidden under snow.\n
+\t\t\t3. If you are driving, slow down and increase your distance from other vehicles. Use the brakes and throttle smoothly to avoid skidding on slippery surfaces.\n
+\t\t\t4. If possible, avoid driving during freezing rain.\n
+\t\t\t5. Use reflective elements on your clothing. They will help you to be seen by drivers, especially in poor visibility conditions.\n
+\t\t\t6. If you are walking on the road at night, use a flashlight to see obstacles in your path and to be visible to other road users.
+</string>
+    <string name="code_71">\t\t\tIf it\'s snowing outside, here are a few tips to help you stay safe and comfortable:\n
+\t\t\t1. Dress warmly and appropriately: wear a hat, gloves, scarf and a warm jacket. Pay attention to the materials: it is best to choose things from warm and waterproof fabrics.\n
+\t\t\t2. Shoes should be warm and comfortable, with good anti-slip soles.\n
+\t\t\t3. Be careful on roads and sidewalks, which can be slippery and covered in snow. Walk slowly and carefully to avoid falls and injury.\n
+\t\t\t4. Use an umbrella or a hood to protect yourself from snow, especially if the snow is accompanied by wind.\n
+\t\t\t5. Be aware that visibility can be reduced during snowfall, so be extra careful and aware of your surroundings.\n
+\t\t\t6.If you are driving, make sure your car is equipped with winter tires and filled with antifreeze. Obey the rules of the road and drive slowly and carefully.
+</string>
+    <string name="code_73">\t\t\tWhen there is moderate snowfall outside, the following guidelines should be observed:\n
+\t\t\t1. Dress Warmly: Dress in warm and comfortable layers to keep warm and avoid hypothermia.\n
+\t\t\t2. Wear comfortable shoes: shoes should be non-slip to avoid falls, and warm enough to protect your feet from cold and moisture.\n
+\t\t\t3. Use an umbrella or hood: Use an umbrella or a hood on your outerwear to keep out the snow.\n
+\t\t\t4. Be careful on the roads: the roads can be slippery and smooth, so be careful when walking and moving on the street.\n
+\t\t\t5. Avoid prolonged exposure to the outdoors: If possible, avoid prolonged exposure to the outdoors so as not to expose yourself to excess cold and wind.
+</string>
+    <string name="code_75">\t\t\tIf you are outside during a heavy snowfall, it is recommended to take some precautions:\n
+\t\t\t1. Stay visible and wear bright clothing to be seen by drivers.\n
+\t\t\t2. Avoid crossing unfamiliar areas and use sidewalks if possible.\n
+\t\t\t3. Wear comfortable and warm shoes with non-slip soles.\n
+\t\t\t4. Avoid falls by holding on to suitable objects or by using rubber or metal ridges on your shoes to improve traction on slippery surfaces.\n
+\t\t\t5. Be aware of surrounding vehicles and use caution on the road to avoid collisions and accidents.\n
+\t\t\t6. Bring warm and waterproof clothing, as well as hats and gloves to keep you warm.
+</string>
+    <string name="code_77">\t\t\tWhen snow grains, be aware that this may be a harbinger of real snowfall and therefore slippery roads and sidewalks. Also, snow grains can reduce visibility, making it dangerous to be on the road. Here are some recommendations for walkers during snow grains:\n
+\t\t\t1. Be careful on roads and sidewalks as snow grains can reduce visibility and make the surface slippery.\n
+\t\t\t2. Dress warmly and wear a hat and gloves to keep out the cold.\n
+\t\t\t3. If possible, use an umbrella or a hood to protect your face from snow and wind.\n
+\t\t\t4. Be careful on the roads and watch the traffic.\n
+\t\t\t5. If possible, avoid long stays outside during snow grains.
+</string>
+    <string name="code_80">\t\t\tIf you\'re outside and it\'s raining lightly, here are a few tips that might come in handy:\n
+\t\t\t1. Wear waterproof clothing or bring an umbrella or raincoat with you so you don\'t get wet. If you don\'t have suitable clothes, try to do without them and stay outside only as a last resort.\n
+\t\t\t2. Be careful on wet roads. Light rain showers can make the road surface slippery, so be careful to avoid falls.\n
+\t\t\t3. Be mindful of visibility. Rain can reduce visibility, especially in foggy or twilight conditions, so be careful and keep your eyes on the road.\n
+\t\t\t4. Keep an eye on the weather forecast and stay safe if the weather worsens. If a light rain shower becomes stronger or turns into a thunderstorm, it is better to reschedule your plans for another time.
+</string>
+    <string name="code_81">\t\t\tMild showers can be nasty, but generally safe if some precautions are taken. Here are some suggestions:\n
+\t\t\t1. Protect from the rain: Wear a quality raincoat or waterproof jacket to keep you warm and dry. Remember to also wear protective headwear and boots.\n
+\t\t\t2. Be careful on the road: Rain can make the road slippery and dangerous to drive, especially if you are on a bike or motorbike. Try to move slowly and carefully to avoid accidents.\n
+\t\t\t3. Be careful on sidewalks: Rain can make sidewalks slippery and dangerous for pedestrians. Try to avoid puddles and other slippery areas.\n
+\t\t\t4. Use an umbrella: If the rain is not too heavy, you can use an umbrella. However, if the rain is heavy, the umbrella may be ineffective, and even dangerous in strong gusts of wind.\n
+\t\t\t5. Pay attention to thunderstorms: Moderate rain can turn into a downpour with thunderstorms. In this case, it is best to seek shelter indoors and avoid open spaces.
+</string>
+    <string name="code_82">\t\t\tIf you are outside during a heavy downpour, here are a few suggestions:\n
+\t\t\t1. Avoid standing under or close to trees, as branches can break under the weight of the water.\n
+\t\t\t2. Avoid walking through deep puddles or flooded streets, as dangerous objects or pits may be hidden under the current.\n
+\t\t\t3. Wear protective headgear and waterproof clothing to protect yourself from rain and getting wet.\n
+\t\t\t4. Avoid using metal objects such as umbrellas near power lines to avoid electric shock.\n
+\t\t\t5. Be careful on the roads as rain can make them slippery and dangerous to drive.\n
+\t\t\t6. If necessary, seek shelter in nearby buildings or under awnings.
+</string>
+    <string name="code_85">\t\t\tIf you are outside and it is snowing lightly, it is recommended to wear warm clothes and well-insulated shoes to avoid hypothermia. \nIf the snowfall is not too intense and the weather is not too cold, you can continue your activities outside, but you should be careful on slippery surfaces. \nIt is also important to pay attention to visibility - during heavy snowfall, it can decrease, which increases the risk of an accident.</string>
+    <string name="code_86">\t\t\tIf you are outside and it is snowing heavily, you should take some precautions to keep yourself safe. Here are some suggestions:\n
+\t\t\t1. Wear warm clothes and protective shoes to avoid falls and colds.\n
+\t\t\t2. Avoid carriageways, especially if visibility is low. Roads can be slippery and unsafe for pedestrians.\n
+\t\t\t3. If you are driving a car, make sure you have your headlights on and winter tires on.\n
+\t\t\t4. Be careful on sidewalks and other places with foot traffic to avoid collisions and falls.\n
+\t\t\t5.Keep an eye on the weather forecast and stay safe.
+</string>
+    <string name="code_95">\t\t\tThere are some safety precautions you should take when there is a thunderstorm outside. Here are some suggestions:\n
+\t\t\t1. Do not stand under tall trees, masts or other metal structures. Seek cover in buildings or vehicles if possible.\n
+\t\t\t2. If you are in an open area, lean down and crouch against the ground, but don\'t lie down on the ground.\n
+\t\t\t3. Do not use phone wires, internet wires, or other electrical devices, including showers and faucets.\n
+\t\t\t4. Stay indoors until the storm is over.
+</string>
+    <string name="code_96">\t\t\tIf you are outdoors during a thunderstorm with light hail, it is important to follow these guidelines:\n
+\t\t\t1. Find shelter indoors if possible. Avoid open spaces such as parks, beaches, and fields.\n
+\t\t\t2. If you are in an open area, do not become the highest point in the area, as lightning follows the path of least resistance, and tall objects can attract its attention. Avoid hiding under trees and stay away from metal objects.\n
+\t\t\t3. If cover is not available, sit on the ground, crouch down and bend your knees, covering your head with your hands. This may help reduce the risk of being struck by lightning.\n
+\t\t\t4. Avoid using electronics and do not make phone calls as this may attract lightning.\n
+\t\t\t5. If you are in a vehicle, close all windows and doors and avoid touching metal surfaces inside the vehicle.
+</string>
+    <string name="code_99">\t\t\tThunderstorm with heavy hail can be hazardous to humans, so the following precautions are recommended:\n
+\t\t\t1. Stay away from open areas, including standing under trees, masts, tall buildings, and other objects that may attract lightning.\n
+\t\t\t2. If you are in a car, close the windows and stay in the car until the storm has passed.\n
+\t\t\t3. If you are outside, try to take cover in a building or under a roof, such as an awning or entryway.\n
+\t\t\t4. If you can\'t hide, try to sit or lie on the ground without touching metal objects. If you are in a group of people, do not stand next to each other.
+</string>
+    <string name="volleyError">Failed to complete the request. Check your internet connection and try again</string>
+    <string name="clickExit">Click again to exit</string>
+    <string name="clickDetailedForecast">Click for a more detailed forecast and related recommendations</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="todayBtn">Today</string>
+    <string name="tomorrowBtn">Tomorrow</string>
+    <string name="infoForHour">Information for the current hour</string>
+    <string name="toRec">to the recommendations</string>
+    <string name="changeCity">Change City</string>
+    <string name="time">Time</string>
+    <string name="celsius">&#32;°C</string>
+    <string name="degree">&#32;°</string>
+    <string name="percent">&#32;%</string>
+    <string name="ms">m/s</string>
+    <string name="am">am</string>
+    <string name="pm">pm</string>
+    <string name="mmHg">&#32;mmHg</string>
+    <string name="calm">Calm.&#32;</string>
+    <string name="quietWind">Quiet wind.&#32;</string>
+    <string name="lightBreeze">Light breeze.&#32;</string>
+    <string name="weakWind">Weak wind.&#32;</string>
+    <string name="moderateWind">Moderate wind.&#32;</string>
+    <string name="freshBreeze">Fresh breeze.&#32;</string>
+    <string name="strongWind">Strong wind.&#32;</string>
+    <string name="hardWind">Hard wind.&#32;</string>
+    <string name="veryHardWind">Very hard wind.&#32;</string>
+    <string name="storm">Storm.&#32;</string>
+    <string name="heavyStorm">Heavy storm.&#32;</string>
+    <string name="violentStorm">Violent storm.&#32;</string>
+    <string name="hurricane">Hurricane.&#32;</string>
+    <string name="clearSky">Clear sky</string>
+    <string name="mostlyClear">Mostly Clear</string>
+    <string name="partlyCloudy">Partly cloudy</string>
+    <string name="fogFrost">Fog and frost</string>
+    <string name="lightDrizzle">Drizzle: light intensity</string>
+    <string name="moderateDrizzle">Drizzle: moderate intensity</string>
+    <string name="denseDrizzle">Drizzle: dense intensity</string>
+    <string name="lightIceDrizzle">Light ice drizzle</string>
+    <string name="denseIceDrizzle">Dense ice drizzle</string>
+    <string name="lightRain">Light rain</string>
+    <string name="moderateRain">Moderate rain</string>
+    <string name="heavyRain">Heavy rain</string>
+    <string name="freezingRainLight">Freezing Rain: Light</string>
+    <string name="freezingRainHeavy">Freezing Rain: Strong</string>
+    <string name="lightSnowfall">Light snowfall</string>
+    <string name="moderateSnowfall">Moderate snowfall</string>
+    <string name="heavySnowfall">Heavy snowfall</string>
+    <string name="snowGrains">Snow grains</string>
+    <string name="lighShowers">Light rain showers</string>
+    <string name="moderateShowers">Moderate rain showers</string>
+    <string name="heavyhowers">Heavy rain showers</string>
+    <string name="lightSnow">Light snow</string>
+    <string name="heavySnow">Heavy snow</string>
+    <string name="thunderstorm">Thunderstorm</string>
+    <string name="thunderstormLightHail">Thunderstorm with light hail</string>
+    <string name="thunderstormHeavyHail">Thunderstorm with heavy hail</string>
+    <string name="enterCity">Please enter city name:</string>
+    <string name="textInputLayoutCity">City name</string>
+    <string name="rememberCity">Remember city</string>
+    <string name="btnFind">Find</string>
+    <string name="tempNotif">Temperature</string>
+    <string name="celswind">°C, wind -</string>
+    <string name="now">It\'s &#32;</string>
+    <string name="night">&#32; in the night</string>
+    <string name="morning">&#32; in the morning</string>
+    <string name="day">&#32; in the afternoon</string>
+    <string name="evening">&#32;in the evening</string>
+    <string name="weatherCondNear">, weather conditions for the nearest future:&#32;</string>
+    <string name="tomorroExpect">Tomorrow is expected:&#32;</string>
+    <string name="feels">Feels like:</string>
+    <string name="windSpeed">Wind speed:</string>
+
+    <string name="atmPresRec">Barometric pressure:</string>
+    <string name="UvRec">UV index:</string>
+    <string name="WindRec">Wind: </string>
+    <string name="HumRec">Humidity: </string>
+    <string name="TempRec">Temperature: "</string>
+    <string name="WeathRec">Weather conditions: "</string>
+    <string name="infoAtNow">, current time forecast</string>
+    <string name="ifWantChangeCity">Click if you want to change the selected city</string>
+    <string name="ifWantOnNotif">Hourly notifications are disabled for today. Click if you want to enable them for today</string>
+    <string name="ifWantOffNotif">Hourly notifications are enabled for today. Click if you want to disable them</string>
+    <string name="off">Disable</string>
+    <string name="on">Enable</string>
+
+    <string name="t_35">Extremely hot</string>
+    <string name="t_30_35">Very hot</string>
+    <string name="t_24_30">Hot (comfortable for a beach holiday)</string>
+    <string name="t_18_24">Warm (comfortable)</string>
+    <string name="t_12_18">Moderately warm</string>
+    <string name="t_6_12">Chilly</string>
+    <string name="t_0_6">Moderately cool</string>
+    <string name="t_6_0">Moderately cold</string>
+    <string name="t_12_6">Cold</string>
+    <string name="t_18_12">Feeling cold</string>
+    <string name="t_24_18">Quite cold</string>
+    <string name="t_30_24">Very cold</string>
+    <string name="t_30">Extremely cold</string>
+
+    <string name="air_text">Air quaity</string>
+    <string name="pm_10_text">Solid particles up to 10 microns</string>
+    <string name="pm_2_5_text">Solid particles up to 2.5 мкм</string>
+    <string name="co_text">Carbon monoxide (CO)</string>
+    <string name="no2_text">Nitrogen dioxide (NO₂)</string>
+    <string name="so2_text">Sulfur dioxide (SO₂)</string>
+    <string name="o3_text">Ozone (O₃)</string>
+    <string name="aerosol_text">Optical thickness of the aerosol</string>
+    <string name="dust_text">Atmospheric dust</string>
+
+
+    <string name="air_1">Good air quality</string>
+    <string name="air_2">\t\t\tModerate air quality that may be acceptable to most healthy people. However, for some groups of people, such as children, the elderly, pregnant women, people with respiratory problems and other chronic illnesses, this level of air pollution can be harmful. Here are some suggestions:\n\n
+\t\t\t1. Limit your time outdoors during periods of high air pollution. Monitor local air quality forecasts and limit outdoor activities, especially during periods when air pollution levels are in the upper 20 to 40 range.\n
+\t\t\t2. If you must be outdoors, try to avoid places with heavy traffic and other sources of air pollution.\n
+\t\t\t3. Monitor your health and at the first sign of a worsening respiratory condition, such as coughing, difficulty breathing, or worsening symptoms of chronic diseases, consult a doctor.
+</string>
+    <string name="air_3">\t\t\tModerate air pollution that may have some impact on human health, especially at risk groups such as children, the elderly, pregnant women and people with chronic diseases. Here are some suggestions:\n\n
+\t\t\t1. Monitor local air quality forecasts and limit outdoor activities during periods of higher air pollution. Especially try to avoid strenuous physical activity outdoors, such as running or playing sports, especially near roads with heavy traffic.\n
+\t\t\t2. If you must be outdoors, try to take routes with less traffic and other sources of air pollution.\n
+\t\t\t3. Indoors, try to create conditions for clean air, ventilate the premises, use air filtration systems if possible, and avoid smoking indoors.\n
+\t\t\t4. If you have respiratory or other chronic conditions, follow your doctor\'s advice and seek medical attention at the first sign of deterioration.
+</string>
+    <string name="air_4">\t\t\tHigh air pollution. Here are some suggestions:\n\n
+\t\t\t1. Limit outdoor activities, especially for risk groups such as children, the elderly, pregnant women, and people with chronic illnesses. If you have to be outside, try to take routes with less traffic and other sources of air pollution.
+\t\t\t2. Indoors, try to create conditions for clean air. Ventilate rooms, use air filtration systems if possible, and avoid indoor smoking.
+\t\t\t3. If you have respiratory or other chronic conditions, follow your doctor\'s advice and avoid prolonged outdoor exposure during periods of poor air quality.
+</string>
+    <string name="air_5">\t\t\tHigh air pollution that may be hazardous to health. Here are some suggestions:\n\n
+\t\t\t1. Avoid being outdoors for long periods of time, especially for risk groups such as children, the elderly, pregnant women, and people with chronic illnesses. If you have to be outdoors, try to wear a mask that covers your nose and mouth to reduce the inhalation of polluted air.\n
+\t\t\t2. Create conditions for clean air indoors. Use air filtration systems if possible, and avoid indoor tobacco use.\n
+\t\t\t3. If you have respiratory or other chronic conditions, follow your doctor\'s advice and avoid prolonged outdoor exposure during times of poor air quality.\n
+\t\t\t4. Avoid additional sources of air pollution in your home or workplace, such as smoking, use of outdated and polluted heating systems, and the use of high volatile chemical products.
+</string>
+    <string name="air_6">\t\t\tCritically high levels of air pollution that can pose a serious health hazard. In such a situation, the following measures are recommended:\n\n
+\t\t\t1. Avoid being outdoors for long periods of time, especially for risk groups such as children, the elderly, pregnant women, and people with chronic illnesses. Wear a mask that covers your nose and mouth when you go outside.\n
+\t\t\t2. If possible, stay indoors with an air filtration system. If you do not have such a system, avoid opening windows and doors to reduce the ingress of polluted air.\n
+\t\t\t3. If you have respiratory or other chronic conditions, follow your doctor\'s advice and avoid being outdoors during periods of critically high levels of air pollution.\n
+\t\t\t4. Avoid additional sources of air pollution in your home or workplace, such as smoking, use of outdated and polluted heating systems, and the use of high volatile chemical products.
+</string>
+
+    <string name="pm2_5_1">\t\t\tIf the PM2.5 air quality index is between 0 and 20, it indicates very good air quality.\n\t\t\tIn such conditions, the air is considered clean and safe for breathing. </string>
+    <string name="pm2_5_2">\t\t\tIf the PM2.5 air quality index is between 0 and 20, it indicates very good air quality.\n\t\t\tIn such conditions, the air is considered clean and safe for breathing. </string>
+    <string name="pm2_5_3">\t\t\tIf the PM2.5 air quality index is between 20 and 25, then the air is considered "satisfactory" in terms of air quality.\n\t\t\tHowever, even if At this AQI PM2.5 level, some populations such as children, the elderly, and those with respiratory illnesses may be more sensitive to air pollution. </string>
+    <string name="pm2_5_4">\t\t\tIf the PM2.5 air quality index is between 25 and 50, then the air quality is considered "moderate" and may cause some health effects.</string>
+    <string name="pm2_5_5">\t\t\tWhen the PM2.5 air quality index is between 50 and 75, it indicates a moderate level of air pollution.</string>
+    <string name="pm2_5_6">\t\t\tWhen the PM2.5 air quality index is between 75 and 800, it indicates a high level of air pollution, which can be a serious health hazard.</string>
+
+    <string name="pm10_1">\t\t\tWhen the PM10 air quality index is between 0 and 20, it indicates good air quality, which is good for health. </string>
+    <string name="pm10_2">\t\t\tWhen the PM10 air quality index is between 20 and 40, it indicates moderate air quality. </string>
+    <string name="pm10_3">\t\t\tWhen the PM10 air quality index is between 40 and 50, this also indicates moderate air quality, but with some deterioration. </string>
+    <string name="pm10_4">\t\t\tWhen the PM10 air quality index is between 50 and 100, it indicates undesirable air quality with moderate or even poor air quality. </string>
+    <string name="pm10_5">\t\t\tWhen the PM10 air quality index is between 100 and 150, it indicates poor air quality with high levels of pollutants. </string>
+    <string name="pm10_6">\t\t\tWhen the PM10 air quality index is between 150 and 1200, it indicates very poor air quality with high levels of pollutants. </string>
+
+    <string name="NO2_1">\t\t\tWhen the air quality index for nitrogen dioxide (NO₂) is between 0 and 40, it indicates fair or good air quality. </string>
+    <string name="NO2_2">\t\t\tIf the air quality index for nitrogen dioxide (NO₂) is between 40 and 90, then this corresponds to the category of moderate or average air quality.</string>
+    <string name="NO2_3">\t\t\tIf the Air Quality Index for Nitrogen Dioxide (NO₂) is between 90 and 120, then this is Poor or Poor Air Quality.</string>
+    <string name="NO2_4">\t\t\tIf the air quality index for nitrogen dioxide (NO₂) is between 120 and 230, this indicates "Very Poor" or "Dangerous" air quality. </string>
+    <string name="NO2_5">\t\t\tIf the air quality index for nitrogen dioxide (NO₂) is between 230 and 340, this indicates "Dangerous" air quality.</string>
+    <string name="NO2_6">\t\t\tIf the air quality index for nitrogen dioxide (NO₂) is between 340 and 1000, this is considered very high air pollution. </string>
+
+    <string name="O3_1">\t\t\tIf the ozone air quality index (O₃) is between 0 and 50, it is considered good air quality. </string>
+    <string name="O3_2">\t\t\tIf the ozone air quality index (O₃) is between 50 and 100, this is considered a moderate air quality level. </string>
+    <string name="O3_3">\t\t\tIf the ozone air quality index (O₃) is between 100 and 130, it is considered a high air quality level. </string>
+    <string name="O3_4">\t\t\tIf the ozone air quality index (O₃) is between 130 and 240, this is considered very high air quality. </string>
+    <string name="O3_5">\t\t\tIf the ozone air quality index (O₃) is between 240 and 380, this is considered an extremely high air quality level, which can pose a serious health hazard. </string>
+    <string name="O3_6">\t\t\tIf the ozone air quality index (O₃) is between 380 and 1000, this is considered an extremely high level of air quality, which poses a serious health hazard. </string>
+
+    <string name="SO2_1">\t\t\tIf the sulfur dioxide (SO₂) air quality index is between 0 and 100, it is considered within acceptable limits and is considered good air quality. </string>
+    <string name="SO2_2">\t\t\tIf the Sulfur Dioxide (SO₂) Air Quality Index is between 100 and 200, this indicates a moderate level of air pollution that may have a negative health impact on some people, especially those who has respiratory problems. </string>
+    <string name="SO2_3">\t\t\tIf the sulfur dioxide (SO₂) air quality index is between 200 and 350, this indicates a high level of air pollution that can pose a serious threat to human health, especially for those who has respiratory problems or other illnesses. </string>
+    <string name="SO2_4">\t\t\tIf the sulfur dioxide (SO₂) air quality index is between 350 and 500, this indicates a very high level of air pollution that poses a serious threat to human health. </string>
+    <string name="SO2_5">\t\t\tIf the sulfur dioxide (SO₂) air quality index is between 500 and 750, this indicates an extremely high level of air pollution that poses a serious risk to human health. </string>
+    <string name="SO2_6">\t\t\tIf the sulfur dioxide (SO₂) air quality index is between 750 and 1000, this indicates an extremely high level of air pollution that poses a serious threat to human health. </string>
+
+    <string name="CO_1">\t\t\tIf the carbon monoxide (CO) air quality index is between 0 and 50, the air quality is good</string>
+    <string name="CO_2">\t\t\tIf the carbon monoxide (CO) air quality index is between 50 and 100, this indicates that the air quality is satisfactory, but some small problems may occur in some risk groups, such as like children, the elderly and people with respiratory problems.</string>
+    <string name="CO_3">\t\t\tIf the carbon monoxide (CO) air quality index is between 100 and 200, this indicates that the air quality is inadequate.</string>
+    <string name="CO_4">\t\t\tIf the carbon monoxide (CO) air quality index is between 200 and 300, it indicates that the air quality is poor.</string>
+    <string name="CO_5">\t\t\tIf the carbon monoxide (CO) air quality index is between 300 and 400, it indicates that the air quality is very poor. </string>
+    <string name="CO_6">\t\t\tA carbon monoxide (CO) air quality index of 400 or higher indicates that the air quality is extremely poor. </string>
+
+    <string name="aerosol_1">Aerosol contamination level is low</string>
+    <string name="aerosol_2">\t\t\tAirborne contamination is moderate.\n\n\t\t\tIt is recommended to follow general air pollution exposure reduction guidelines such as:\n\t\t\t1. Restricting long-term outdoor exposure, especially for people with respiratory or other illnesses.\n\t\t\t2. Humidification of indoor air.\n\t\t\t3. Use of indoor air filtration systems and regular ventilation.</string>
+    <string name="aerosol_3">\t\t\tAerosol contamination levels are high.\n\n\t\t\tAdditional precautions are recommended, such as:\n\t\t\t1. Use of masks with a high level of protection, such as masks with a protection rating of N95 or higher, especially for people with respiratory diseases or other diseases.\n\t\t\t2. Restriction of prolonged outdoor exposure, especially during periods of high levels of aerosol optical depth.\n\t\t\t3. Use of indoor air filtration systems.</string>
+    <string name="aerosol_4">\t\t\tThe level of aerosol contamination is critical.\n\n\t\t\tIt is recommended to follow the official instructions and recommendations of local authorities, such as:\n\t\t\tEmergency regimes, evacuation from areas with high levels of aerosol optical depth, use of masks with a high level of protection, restriction of going out</string>
+
+    <string name="dust_1">\t\t\tLow dust pollution.\n\n\t\t\tPrecautions:\n\t\t\tNo special precautions. However, vulnerable groups such as children, the elderly and those with respiratory illnesses are advised to exercise caution and avoid prolonged outdoor exposure in an area with high concentrations of dust particles.</string>
+    <string name="dust_2">\t\t\tModerate dust pollution.\n\n\t\t\tPrecautions:\n\t\t\tRecommended:\n\n\t\t\t1. Limit extended outdoor exposure, especially for vulnerable groups.\n\t\t\t2. Regularly ventilating rooms and using air filtration systems can also help reduce your health exposure to dust particles.</string>
+    <string name="dust_3">\t\t\tHigh level of dust pollution.\n\n\t\t\tPrecautions:\n\t\t\tRecommended:\n\n\t\t\t1. Avoid prolonged exposure to the outdoors, especially for vulnerable groups such as children, the elderly, and those with respiratory conditions.\n\t\t\t2. Regular ventilation of the premises, the use of air filtration systems and the use of masks may also be recommended.</string>
+    <string name="dust_4">\t\t\tCritically high levels of dust pollution.\n\n\t\t\tPrecautions:\n\t\t\tUse extreme caution and avoid prolonged outdoor exposure, even for healthy individuals.\n\t\t\tVulnerable groups are advised to stay indoors, ventilate them only during periods of low dust concentrations, and use high-efficiency air filtration systems.\n\t\t\tUse masks with a high level of protection, such as masks rated N95 or higher may also be recommended.</string>
+
+    <string name="air_plus_no2">\n\n\tNitric oxide has been observed to be elevated compared to O₃, SO₂, CO. May cause respiratory irritation, exacerbate asthma symptoms, increase the risk of respiratory infections, and affect the cardiovascular system.\n\t\t\tRecommended:\n\n
+\t\t\t1. Avoid being outdoors during periods of high nitrogen oxide pollution, especially near roads with heavy traffic.\n
+\t\t\t2. Prefer locations away from roads and sources of NO₂ emissions, such as parks or green spaces.\n
+\t\t\t3. Use high filtration masks such as N95 masks to reduce nitric oxide inhalation.\n
+\t\t\t4. Moisten the mucous membranes of the nose and throat to reduce their sensitivity to polluted air.\n
+\t\t\t5. Avoid physical activity outdoors during periods of high NO₂ levels, as physical activity can increase the inhalation of harmful substances.\n
+\t\t\t6. Improve indoor air quality by closing windows and using air purification systems.\n
+\t\t\t7. Avoid other sources of indoor air pollution such as tobacco, smoke from fireplaces or wood-burning stoves, and other chemical emissions.
+</string>
+    <string name="air_plus_o3">\n\n\t\t\tElevated levels of ozone have been observed compared to NO₂, SO₂, CO. Ozone can also irritate the respiratory tract, worsen asthma, and have negative effects on the lungs and heart.\n\t\t\tRecommended:\n\n
+\t\t\t1. Avoid being outdoors during periods of high ozone levels, especially during sunny days and peak ozone levels.\n
+\t\t\t2. Prefer locations far from sources of emissions, such as highways, industrial plants, or dense urban areas.\n
+\t\t\t3. Use protective gear such as hats, sunglasses, and long-sleeved clothing to reduce direct skin exposure to sunlight.\n
+\t\t\t4. Avoid physical activity outdoors during periods of high ozone levels, as physical activity can increase the inhalation of harmful substances.\n
+\t\t\t5. Keep your home\'s indoor environment healthy by using ventilation systems, air filters, and other indoor air purification methods.\n
+\t\t\t6. Avoid other sources of indoor air pollution such as tobacco, chemicals, aerosols and others and take steps to reduce them.
+</string>
+    <string name="air_plus_co">\n\n\t\t\tCarbon monoxide has been found to be higher than O₃, SO₂, NO₂. \nCan bind to hemoglobin in the blood and limit the blood\'s ability to carry oxygen, which can lead to hypoxia and serious illnesses, including carbon monoxide poisoning. \n\t\t\tRecommended:\n\n\t\t\t1. Move to a safe location, as far as possible from the source of the carbon monoxide release.\n
+\t\t\t2. Avoid physical activity outdoors in a high CO area.\n
+\t\t\t3. If possible, use protective equipment such as masks to limit the inhalation of polluted air.\n
+\t\t\t4. If necessary, use high filtration masks such as N95 masks to reduce carbon monoxide inhalation.\n
+\t\t\t5. Moisten the mucous membranes of the nose and throat to reduce their sensitivity to polluted air.\n
+\t\t\t6. Avoid using toxic substances in daily life such as chemical household products, varnishes, paints, etc.\n
+\t\t\t7. Maintain a healthy indoor environment in your home by ventilating rooms, using ventilation systems and air filters to reduce indoor air pollution.
+</string>
+    <string name="air_plus_so2">\n\n\t\t\tElevated levels of sulfur dioxide compared to O₃, NO₂, CO have been observed. May cause respiratory irritation, increase the risk of respiratory infections and affect the cardiovascular system.\n\t\t\tRecommended:\n\n
+\t\t\t1. Avoid being outdoors during periods of high sulfur dioxide pollution, especially near sources of SO₂ emissions such as industrial plants, energy facilities, or high traffic roads.\n
+\t\t\t2. Prefer locations far from sources of SO₂ emissions, such as parks, green spaces, or residential areas with less industrial activity.\n
+\t\t\t3. Use high filtration masks such as N95 masks to reduce sulfur dioxide inhalation.\n
+\t\t\t4. Moisten the mucous membranes of the nose and throat to reduce their sensitivity to polluted air.\n
+\t\t\t5. Avoid physical activity outdoors during periods of elevated SO₂ levels, as physical activity can increase the inhalation of harmful substances.\n
+\t\t\t6. Improve indoor air quality by closing windows and using air purification systems.\n
+\t\t\t7. Avoid other sources of indoor air pollution such as tobacco, smoke from fireplaces or wood-burning stoves, and other chemical emissions.
+</string>
+
+    <string name="aiq">\nAir quality index:&#32;</string>
+    <string name="index">\nIndex&#32;</string>
+    <string name="mkg">&#32;µg/m³</string>
+
+</resources>

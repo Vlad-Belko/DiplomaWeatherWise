@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/textChangeCity"
+        android:title="Если вы хотите изменить выбранный город:"/>
+    <item android:id="@+id/btnChangeCity"
+        android:title="" />
+    <item android:id="@+id/textOnOffNotif"
+        android:title="Ежечасные уведомления на сегодня:"/>
+    <item android:id="@+id/btnCOnOffNotif"
+        android:title="Включены" />
+</menu>
